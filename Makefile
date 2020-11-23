@@ -1,10 +1,17 @@
 PREFIX ?= /usr/local
 CC ?= cc
 
-output: dwmblocks.c blocks.h
-	${CC} `pkg-config --cflags x11 --libs x11` dwmblocks.c -o dwmblocks
+all: options dwmblocks
 
-
+dwmblocks: ${OBJ}
+	${CC} -o $@ ${OBJ} ${LDFLAGS}
+	
+options:
+	@echo dwm build options:
+	@echo "CFLAGS   = ${CFLAGS}"
+	@echo "LDFLAGS  = ${LDFLAGS}"
+	@echo "CC       = ${CC}"
+	
 clean:
 	rm -f *.o *.gch dwmblocks
 	
