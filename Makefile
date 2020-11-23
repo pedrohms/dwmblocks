@@ -1,7 +1,7 @@
 PREFIX ?= /usr/local
 CC ?= cc
 
-output: dwmblocks.c config.h
+output: dwmblocks.c blocks.h
 	${CC} `pkg-config --cflags x11 --libs x11` dwmblocks.c -o dwmblocks
 
 
