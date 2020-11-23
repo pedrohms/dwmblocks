@@ -1,24 +1,9 @@
-PREFIX ?= /usr/local
-CC ?= cc
+PREFIX?=/usr/bin
 
-all: options dwmblocks
-
-dwmblocks: ${OBJ}
-	${CC} -o $@ ${OBJ} ${LDFLAGS}
-	
-options:
-	@echo dwm build options:
-	@echo "CFLAGS   = ${CFLAGS}"
-	@echo "LDFLAGS  = ${LDFLAGS}"
-	@echo "CC       = ${CC}"
-	
+output: dwmblocks.c blocks.h
+    cc `pkg-config --cflags x11` `pkg-config --libs x11` -D_GNU_SOURCE dwmblocks.c -o dwmblocks
 clean:
-	rm -f *.o *.gch dwmblocks
-	
-install: all
-	mkdir -p ${DESTDIR}${PREFIX}/bin
-	cp -f dwmblocks ${DESTDIR}${PREFIX}/bin
-	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks
-	
-uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks
+    rm -f *.o *.gch dwmblocks
+install: output
+    mkdir -p ${DESTDIR}${PREFIX}
+	cp -f dwmblocks ${DESTDIR}${PREFIX}
