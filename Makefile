@@ -15,7 +15,7 @@ options:
 clean:
 	rm -f *.o *.gch dwmblocks
 	
-install: output
+install: all
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f dwmblocks ${DESTDIR}${PREFIX}/bin
 	chmod 755 ${DESTDIR}${PREFIX}/bin/dwmblocks
