@@ -1,6 +1,6 @@
 # Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
 pkgname=dwmblocks-distrotube-git
-pkgver=1.0.r6.c5e50c2
+pkgver=1.0.r7.b8aecb3
 pkgrel=1
 pkgdesc="My own build of dwmblocks for use with my build of dwm."
 arch=(x86_64 i686)
