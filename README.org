@@ -4,7 +4,8 @@
 #+CAPTION: dwmblocks-distrotube
 #+ATTR_HTML: :alt dwmblocks-distrotube :title dwmblocks-distrotube :align left
 [[https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles05-thumb.png]]
-Modular status bar for dwm written in c.
+
+Dwmblocks is a modular status bar for dwm written in c.  This is my personal build of dwmblocks.
 
 * Modifying dwmblocks
 The statusbar is made from text output from scripts found in my [.local/bin](https://gitlab.com/dwt1/dotfiles/-/tree/master/.local/bin).  Blocks are added and removed by editing the blocks.h header file.
