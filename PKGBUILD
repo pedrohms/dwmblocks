@@ -32,7 +32,7 @@ package() {
   cp -rf * ${pkgdir}/opt/${pkgname}
   make PREFIX=/usr DESTDIR="${pkgdir}" install
   install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/dwmblocks-distrotube/LICENSE"
-  install -Dm644 README.md "${pkgdir}/usr/share/doc/dwmblocks-distrotube/README.md"
+  install -Dm644 README.org "${pkgdir}/usr/share/doc/dwmblocks-distrotube/README.org"
   chmod 0755 ${pkgdir}/opt/${pkgname}/scripts/*
 }
 
