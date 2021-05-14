@@ -1,9 +1,9 @@
 # Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
 pkgname=dwmblocks-distrotube-git
-pkgver=1.0.r13.af63299
+pkgver=1.0.r15.df7252a
 pkgrel=1
 pkgdesc="My own build of dwmblocks for use with my build of dwm."
-arch=(x86_64 i686)
+arch=(x86_64)
 url="https://gitlab.com/dwt1/dwmblocks-distrotube.git"
 license=('ISC')
 groups=()
