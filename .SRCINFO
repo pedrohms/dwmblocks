@@ -1,6 +1,6 @@
 pkgbase = dwmblocks-distrotube-git
 	pkgdesc = My own build of dwmblocks for use with my build of dwm.
-	pkgver = 1.0.r15.df7252a
+	pkgver = 1.0.r20.0821b9d
 	pkgrel = 1
 	url = https://gitlab.com/dwt1/dwmblocks-distrotube.git
 	arch = x86_64
