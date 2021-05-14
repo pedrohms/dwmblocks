@@ -1,5 +1,9 @@
 #+TITLE: dwmblocks-distrotube
 
+* About Dwmblocks
+#+CAPTION: dwmblocks-distrotube
+#+ATTR_HTML: :alt dwmblocks-distrotube :title dwmblocks-distrotube :align left
+[[https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles05-thumb.png]]
 Modular status bar for dwm written in c.
 
 * Modifying dwmblocks
