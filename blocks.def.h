@@ -5,7 +5,7 @@ static const Block blocks[] = {
 	
 	{" 💻 ", "$HOME/.local/bin/memory",	 6,		              1},
 
-	{" 🔊 ", "$HOME/.local/bin/volume",     0,		              10},
+	{" 🔊 ", "$HOME/.local/bin/volume",     1,		              10},
 
 	{" 🕑 ", "$HOME/.local/bin/clock",	     60,	              0},
 };
