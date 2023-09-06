@@ -2,10 +2,6 @@
 static const Block blocks[] = {
 	/*Icon*/ /*Command*/	 	                            /*Update Interval*/	/*Update Signal*/
     {" 🐧 ", "/opt/dwmblocks-distrotube/scripts/kernel",	 360,		          2},
-
-	{" 🔺 ", "/opt/dwmblocks-distrotube/scripts/upt",		 60,		          2},
-
-	{" 📦 ", "/opt/dwmblocks-distrotube/scripts/pacupdate",  360,		          9},
 	
 	{" 💻 ", "/opt/dwmblocks-distrotube/scripts/memory",	 6,		              1},
 
