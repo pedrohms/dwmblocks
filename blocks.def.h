@@ -7,7 +7,7 @@ static const Block blocks[] = {
 
 	{" 🔊 ", "$HOME/.local/bin/volume",     1,		              10},
 
-  {" ", "$HOME/.local/bin/bat_info",      10,                 11}
+  {"  ", "$HOME/.local/bin/bat_info",      10,                 11},
 
 	{" 🕑 ", "$HOME/.local/bin/clock",	     30,	              0},
 };
