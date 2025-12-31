@@ -7,7 +7,9 @@ static const Block blocks[] = {
 
 	{" 🔊 ", "$HOME/.local/bin/volume",     1,		              10},
 
-	{" 🕑 ", "$HOME/.local/bin/clock",	     1,	              0},
+  {" ", "$HOME/.local/bin/bat_info",      10,                 11}
+
+	{" 🕑 ", "$HOME/.local/bin/clock",	     30,	              0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
